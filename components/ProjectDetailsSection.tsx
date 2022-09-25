@@ -1,4 +1,4 @@
-const ProjectDetailsSection = () => {
+const ProjectDetailsSection = ({ project }: any) => {
     return (
         <section id='project-details' className='project-details'>
             <div className='container' data-aos='fade-up' data-aos-delay='100'>

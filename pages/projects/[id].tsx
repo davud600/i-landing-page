@@ -7,12 +7,12 @@ const ProjectDetails: NextPage = ({ project }: any) => {
     return (
         <main>
             <BreadCrumbs title={project.title} />
-            <ProjectDetailsSection />
+            <ProjectDetailsSection project={project} />
         </main>
     );
 };
 
-export async function getServerSideProps(context: any) {
+export async function getStaticProps(context: any) {
     const project = data.projects[context.params.id];
 
     return {
@@ -22,15 +22,15 @@ export async function getServerSideProps(context: any) {
     };
 }
 
-// export async function getServerSidePaths() {
-//     return {
-//         fallback: true,
-//         paths: data.projects.map((project: never) => ({
-//             params: {
-//                 id: data.projects.indexOf(project).toString()
-//             }
-//         }))
-//     };
-// }
+export async function getStaticPaths() {
+    return {
+        fallback: true,
+        paths: data.projects.map((project: never) => ({
+            params: {
+                id: data.projects.indexOf(project).toString()
+            }
+        }))
+    };
+}
 
 export default ProjectDetails;
