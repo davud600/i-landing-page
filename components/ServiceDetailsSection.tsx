@@ -31,10 +31,10 @@ const ServiceDetailsSection = () => {
                         </div>
 
                         <div className='col-lg-8'>
-                            <img
+                            {/* <img
                                 src='/static/img/services.jpg'
                                 alt=''
-                                className='img-fluid services-img'></img>
+                                className='img-fluid services-img'></img> */}
                             <h3>
                                 Temporibus et in vero dicta aut eius lidero
                                 plastis trand lined voluptas dolorem ut voluptas

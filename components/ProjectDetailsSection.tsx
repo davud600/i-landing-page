@@ -12,27 +12,27 @@ const ProjectDetailsSection = ({ project }: any) => {
                         <div className='slides-1 portfolio-details-slider swiper'>
                             <div className='swiper-wrapper align-items-center'>
                                 <div className='swiper-slide'>
-                                    <img
+                                    {/* <img
                                         src='/static/img/projects/remodeling-1.jpg'
-                                        alt=''></img>
+                                        alt=''></img> */}
                                 </div>
 
                                 <div className='swiper-slide'>
-                                    <img
+                                    {/* <img
                                         src='/static/img/projects/construction-1.jpg'
-                                        alt=''></img>
+                                        alt=''></img> */}
                                 </div>
 
                                 <div className='swiper-slide'>
-                                    <img
+                                    {/* <img
                                         src='/static/img/projects/design-1.jpg'
-                                        alt=''></img>
+                                        alt=''></img> */}
                                 </div>
 
                                 <div className='swiper-slide'>
-                                    <img
+                                    {/* <img
                                         src='/static/img/projects/repairs-1.jpg'
-                                        alt=''></img>
+                                        alt=''></img> */}
                                 </div>
                             </div>
                             <div className='swiper-pagination'></div>
@@ -75,10 +75,10 @@ const ProjectDetailsSection = ({ project }: any) => {
                                         <i className='bi bi-quote quote-icon-right'></i>
                                     </p>
                                     <div>
-                                        <img
+                                        {/* <img
                                             src='/static/img/testimonials/testimonials-2.jpg'
                                             className='testimonial-img'
-                                            alt=''></img>
+                                            alt=''></img> */}
                                         <h3>Sara Wilsson</h3>
                                         <h4>Designer</h4>
                                     </div>
