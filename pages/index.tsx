@@ -1,19 +1,19 @@
 import type { NextPage } from "next";
-import Footer from "../components/Footer";
+import FeaturesSection from "../components/FeaturesSection";
 import GetStartedSection from "../components/GetStartedSection";
-import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
+import OurProjectsSection from "../components/OurProjectsSection";
+import ServicesSection from "../components/ServicesSection";
 
 const Home: NextPage = () => {
     return (
-        <>
-            <Header />
+        <main>
             <HeroSection />
-            <main>
-                <GetStartedSection />
-            </main>
-            <Footer />
-        </>
+            <GetStartedSection />
+            <ServicesSection />
+            <FeaturesSection />
+            <OurProjectsSection hasHeader={true} />
+        </main>
     );
 };
 

@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (
@@ -17,7 +19,9 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <meta content='' name='description'></meta>
                 <meta content='' name='keywords'></meta>
             </Head>
+            <Header />
             <Component {...pageProps} />
+            <Footer />
         </>
     );
 }

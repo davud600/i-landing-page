@@ -4,9 +4,7 @@ const Header = () => {
     return (
         <header id='header' className='header d-flex align-items-center'>
             <div className='container-fluid container-xl d-flex align-items-center justify-content-between'>
-                <Link
-                    href='index.html'
-                    className='logo d-flex align-items-center'>
+                <Link href='/' className='logo d-flex align-items-center'>
                     <h1 className='text-white' role='button'>
                         UpConstruction
                     </h1>
@@ -17,21 +15,18 @@ const Header = () => {
                 <nav id='navbar' className='navbar'>
                     <ul>
                         <li>
-                            <Link href='index.html' className='active'>
+                            <Link href='/' className='active'>
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link href='about.html'>About</Link>
+                            <Link href='/about'>About</Link>
                         </li>
                         <li>
-                            <Link href='services.html'>Services</Link>
+                            <Link href='/services'>Services</Link>
                         </li>
                         <li>
-                            <Link href='projects.html'>Projects</Link>
-                        </li>
-                        <li>
-                            <Link href='blog.html'>Blog</Link>
+                            <Link href='/projects'>Projects</Link>
                         </li>
                         <li className='dropdown'>
                             <Link href='#'>
@@ -91,7 +86,7 @@ const Header = () => {
                             </ul>
                         </li>
                         <li>
-                            <Link href='contact.html'>Contact</Link>
+                            <Link href='/contact'>Contact</Link>
                         </li>
                     </ul>
                 </nav>
