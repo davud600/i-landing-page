@@ -4,9 +4,9 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <link href='assets/img/favicon.png' rel='icon'></link>
+                <link href='/static/img/favicon.png' rel='icon'></link>
                 <link
-                    href='assets/img/apple-touch-icon.png'
+                    href='/static/img/apple-touch-icon.png'
                     rel='apple-touch-icon'></link>
 
                 <link
@@ -21,23 +21,23 @@ export default function Document() {
                     rel='stylesheet'></link>
 
                 {/* <link
-                    href='assets/vendor/bootstrap/css/bootstrap.min.css'
+                    href='/static/vendor/bootstrap/css/bootstrap.min.css'
                     rel='stylesheet'></link>
                 <link
-                    href='assets/vendor/bootstrap-icons/bootstrap-icons.css'
+                    href='/static/vendor/bootstrap-icons/bootstrap-icons.css'
                     rel='stylesheet'></link> */}
                 <link
-                    href='assets/vendor/fontawesome-free/css/all.min.css'
+                    href='/static/vendor/fontawesome-free/css/all.min.css'
                     rel='stylesheet'></link>
-                <link href='assets/vendor/aos/aos.css' rel='stylesheet'></link>
+                <link href='/static/vendor/aos/aos.css' rel='stylesheet'></link>
                 <link
-                    href='assets/vendor/glightbox/css/glightbox.min.css'
+                    href='/static/vendor/glightbox/css/glightbox.min.css'
                     rel='stylesheet'></link>
                 <link
-                    href='assets/vendor/swiper/swiper-bundle.min.css'
+                    href='/static/vendor/swiper/swiper-bundle.min.css'
                     rel='stylesheet'></link>
 
-                <link href='assets/css/main.css' rel='stylesheet'></link>
+                <link href='/static/css/main.css' rel='stylesheet'></link>
             </Head>
             <body>
                 <Main />
@@ -51,15 +51,15 @@ export default function Document() {
 
                 <div id='preloader'></div>
 
-                <script src='assets/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
-                <script src='assets/vendor/aos/aos.js'></script>
-                <script src='assets/vendor/glightbox/js/glightbox.min.js'></script>
-                <script src='assets/vendor/isotope-layout/isotope.pkgd.min.js'></script>
-                <script src='assets/vendor/swiper/swiper-bundle.min.js'></script>
-                <script src='assets/vendor/purecounter/purecounter_vanilla.js'></script>
-                <script src='assets/vendor/php-email-form/validate.js'></script>
+                <script src='/static/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
+                <script src='/static/vendor/aos/aos.js'></script>
+                <script src='/static/vendor/glightbox/js/glightbox.min.js'></script>
+                <script src='/static/vendor/isotope-layout/isotope.pkgd.min.js'></script>
+                <script src='/static/vendor/swiper/swiper-bundle.min.js'></script>
+                <script src='/static/vendor/purecounter/purecounter_vanilla.js'></script>
+                <script src='/static/vendor/php-email-form/validate.js'></script>
 
-                <script src='assets/js/main.js'></script>
+                <script src='/static/js/main.js'></script>
             </body>
         </Html>
     );
