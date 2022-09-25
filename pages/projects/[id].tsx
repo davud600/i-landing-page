@@ -12,7 +12,7 @@ const ProjectDetails: NextPage = ({ project }: any) => {
     );
 };
 
-export async function getStaticProps(context: any) {
+export async function getServerSideProps(context: any) {
     const project = data.projects[context.params.id];
 
     return {
@@ -22,15 +22,15 @@ export async function getStaticProps(context: any) {
     };
 }
 
-export async function getStaticPaths() {
-    return {
-        fallback: true,
-        paths: data.projects.map((project: never) => ({
-            params: {
-                id: data.projects.indexOf(project).toString()
-            }
-        }))
-    };
-}
+// export async function getServerSidePaths() {
+//     return {
+//         fallback: true,
+//         paths: data.projects.map((project: never) => ({
+//             params: {
+//                 id: data.projects.indexOf(project).toString()
+//             }
+//         }))
+//     };
+// }
 
 export default ProjectDetails;

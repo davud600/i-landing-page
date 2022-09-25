@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const ProjectDetailsSection = () => {
     return (
         <section id='project-details' className='project-details'>
@@ -7,50 +5,28 @@ const ProjectDetailsSection = () => {
                 <div className='position-relative h-100'>
                     <div className='slides-1 portfolio-details-slider swiper'>
                         <div className='swiper-wrapper align-items-center'>
-                            <div
-                                className='swiper-slide'
-                                style={{
-                                    backgroundImage:
-                                        "url(assets/img/projects/remodeling-1.jpg)"
-                                }}></div>
-                            {/* <div className='swiper-slide'>
-                                <Image
-                                    src={
-                                        "/assets/img/projects/remodeling-1.jpg"
-                                    }
-                                    className='img-fluid'
-                                    layout='responsive'
-                                    width={1000}
-                                    height={750}></Image>
-                            </div> */}
-
                             <div className='swiper-slide'>
-                                <Image
-                                    src={
-                                        "/assets/img/projects/construction-1.jpg"
-                                    }
-                                    className='img-fluid'
-                                    layout='responsive'
-                                    width={1000}
-                                    height={750}></Image>
+                                <img
+                                    src='/assets/img/projects/remodeling-1.jpg'
+                                    alt=''></img>
                             </div>
 
                             <div className='swiper-slide'>
-                                <Image
-                                    src={"/assets/img/projects/design-1.jpg"}
-                                    className='img-fluid'
-                                    layout='responsive'
-                                    width={1000}
-                                    height={750}></Image>
+                                <img
+                                    src='/assets/img/projects/construction-1.jpg'
+                                    alt=''></img>
                             </div>
 
                             <div className='swiper-slide'>
-                                <Image
-                                    src={"/assets/img/projects/repairs-1.jpg"}
-                                    className='img-fluid'
-                                    layout='responsive'
-                                    width={1000}
-                                    height={750}></Image>
+                                <img
+                                    src='/assets/img/projects/design-1.jpg'
+                                    alt=''></img>
+                            </div>
+
+                            <div className='swiper-slide'>
+                                <img
+                                    src='/assets/img/projects/repairs-1.jpg'
+                                    alt=''></img>
                             </div>
                         </div>
                         <div className='swiper-pagination'></div>
@@ -91,7 +67,10 @@ const ProjectDetailsSection = () => {
                                     <i className='bi bi-quote quote-icon-right'></i>
                                 </p>
                                 <div>
-                                    {/* <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt=""> */}
+                                    <img
+                                        src='/assets/img/testimonials/testimonials-2.jpg'
+                                        className='testimonial-img'
+                                        alt=''></img>
                                     <h3>Sara Wilsson</h3>
                                     <h4>Designer</h4>
                                 </div>

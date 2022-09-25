@@ -5,7 +5,7 @@ const BreadCrumbs = ({ title }: any) => {
         <div
             className='breadcrumbs d-flex align-items-center'
             style={{
-                backgroundImage: "url('assets/img/breadcrumbs-bg.jpg')"
+                backgroundImage: "url('/assets/img/breadcrumbs-bg.jpg')"
             }}>
             <div
                 className='container position-relative d-flex flex-column align-items-center'
