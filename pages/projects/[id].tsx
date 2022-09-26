@@ -6,7 +6,7 @@ import data from "../../data.json";
 const ProjectDetails: NextPage = ({ project = null }: any) => {
     return (
         <main>
-            <BreadCrumbs title={project.title} />
+            <BreadCrumbs title={project?.title} />
             <ProjectDetailsSection project={project} />
         </main>
     );

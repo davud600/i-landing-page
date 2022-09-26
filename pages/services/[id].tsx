@@ -6,7 +6,7 @@ import data from "../../data.json";
 const ServiceDetails: NextPage = ({ service = null }: any) => {
     return (
         <main>
-            <BreadCrumbs title={service.title} />
+            <BreadCrumbs title={service?.title} />
             <ServiceDetailsSection />
         </main>
     );
