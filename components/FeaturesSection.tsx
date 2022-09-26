@@ -81,7 +81,10 @@ const FeaturesSection = () => {
                                 className='col-lg-6 order-1 order-lg-2 text-center'
                                 data-aos='fade-up'
                                 data-aos-delay='200'>
-                                {/* <img src="/static/img/features-1.jpg" alt="" className="img-fluid"> */}
+                                <img
+                                    src='/static/img/features-1.jpg'
+                                    alt=''
+                                    className='img-fluid'></img>
                             </div>
                         </div>
                     </div>
