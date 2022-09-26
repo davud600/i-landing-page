@@ -3,7 +3,7 @@ import BreadCrumbs from "../../components/BreadCrumbs";
 import ServiceDetailsSection from "../../components/ServiceDetailsSection";
 import data from "../../data.json";
 
-const ServiceDetails: NextPage = ({ service }: any) => {
+const ServiceDetails: NextPage = ({ service = null }: any) => {
     return (
         <main>
             <BreadCrumbs title={service.title} />

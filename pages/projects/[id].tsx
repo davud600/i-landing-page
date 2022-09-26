@@ -3,7 +3,7 @@ import BreadCrumbs from "../../components/BreadCrumbs";
 import ProjectDetailsSection from "../../components/ProjectDetailsSection";
 import data from "../../data.json";
 
-const ProjectDetails: NextPage = ({ project }: any) => {
+const ProjectDetails: NextPage = ({ project = null }: any) => {
     return (
         <main>
             <BreadCrumbs title={project.title} />
