@@ -41,10 +41,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
                         data-aos-delay='200'>
                         <div className='col-lg-4 col-md-6 portfolio-item filter-remodeling'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/remodeling-1.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/remodeling-1.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Remodeling 1</h4>
                                     <p>
@@ -70,10 +70,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
 
                         <div className='col-lg-4 col-md-6 portfolio-item filter-construction'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/construction-1.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/construction-1.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Construction 1</h4>
                                     <p>
@@ -99,10 +99,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
 
                         <div className='col-lg-4 col-md-6 portfolio-item filter-repairs'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/repairs-1.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/repairs-1.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Repairs 1</h4>
                                     <p>
@@ -128,10 +128,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
 
                         <div className='col-lg-4 col-md-6 portfolio-item filter-design'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/design-1.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/design-1.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Design 1</h4>
                                     <p>
@@ -157,10 +157,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
 
                         <div className='col-lg-4 col-md-6 portfolio-item filter-remodeling'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/remodeling-2.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/remodeling-2.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Remodeling 2</h4>
                                     <p>
@@ -186,10 +186,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
 
                         <div className='col-lg-4 col-md-6 portfolio-item filter-construction'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/construction-2.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/construction-2.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Construction 2</h4>
                                     <p>
@@ -215,10 +215,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
 
                         <div className='col-lg-4 col-md-6 portfolio-item filter-repairs'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/repairs-2.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/repairs-2.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Repairs 2</h4>
                                     <p>
@@ -244,10 +244,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
 
                         <div className='col-lg-4 col-md-6 portfolio-item filter-design'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/design-2.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/design-2.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Design 2</h4>
                                     <p>
@@ -273,10 +273,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
 
                         <div className='col-lg-4 col-md-6 portfolio-item filter-remodeling'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/remodeling-3.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/remodeling-3.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Remodeling 3</h4>
                                     <p>
@@ -303,10 +303,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
 
                         <div className='col-lg-4 col-md-6 portfolio-item filter-construction'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/construction-3.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/construction-3.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Construction 3</h4>
                                     <p>
@@ -333,10 +333,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
 
                         <div className='col-lg-4 col-md-6 portfolio-item filter-repairs'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/repairs-3.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/repairs-3.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Repairs 3</h4>
                                     <p>
@@ -363,10 +363,10 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
 
                         <div className='col-lg-4 col-md-6 portfolio-item filter-design'>
                             <div className='portfolio-content h-100'>
-                                {/* <img
-                                        src='/static/img/projects/design-3.jpg'
-                                        className='img-fluid'
-                                        alt=''></img> */}
+                                <img
+                                    src='/static/img/projects/design-3.jpg'
+                                    className='img-fluid'
+                                    alt=''></img>
                                 <div className='portfolio-info'>
                                     <h4>Design 3</h4>
                                     <p>

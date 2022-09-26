@@ -126,7 +126,10 @@ const FeaturesSection = () => {
                                 </ul>
                             </div>
                             <div className='col-lg-6 order-1 order-lg-2 text-center'>
-                                {/* <img src="/static/img/features-2.jpg" alt="" className="img-fluid"> */}
+                                <img
+                                    src='/static/img/features-2.jpg'
+                                    alt=''
+                                    className='img-fluid'></img>
                             </div>
                         </div>
                     </div>
@@ -160,7 +163,10 @@ const FeaturesSection = () => {
                                 </p>
                             </div>
                             <div className='col-lg-6 order-1 order-lg-2 text-center'>
-                                {/* <img src="/static/img/features-3.jpg" alt="" className="img-fluid"> */}
+                                <img
+                                    src='/static/img/features-3.jpg'
+                                    alt=''
+                                    className='img-fluid'></img>
                             </div>
                         </div>
                     </div>
@@ -196,7 +202,10 @@ const FeaturesSection = () => {
                                 </ul>
                             </div>
                             <div className='col-lg-6 order-1 order-lg-2 text-center'>
-                                {/* <img src="/static/img/features-4.jpg" alt="" className="img-fluid"> */}
+                                <img
+                                    src='/static/img/features-4.jpg'
+                                    alt=''
+                                    className='img-fluid'></img>
                             </div>
                         </div>
                     </div>
