@@ -25,7 +25,7 @@ export async function getStaticProps(context: any) {
 export async function getStaticPaths() {
     return {
         fallback: true,
-        paths: data.services.map((service: never) => ({
+        paths: data.services.map((service: any) => ({
             params: {
                 id: data.services.indexOf(service).toString()
             }
