@@ -1,5 +1,5 @@
 import Link from "next/link";
-import StaticContent from "./StaticContent";
+// import StaticContent from "./StaticContent";
 
 const BreadCrumbs = ({ title }: any) => {
     return (
