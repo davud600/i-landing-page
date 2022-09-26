@@ -25,7 +25,7 @@ export async function getStaticProps(context: any) {
 export async function getStaticPaths() {
     return {
         fallback: true,
-        paths: data.projects.map((project: never) => ({
+        paths: data.projects.map((project: any) => ({
             params: {
                 id: data.projects.indexOf(project).toString()
             }
