@@ -7,7 +7,7 @@ const ProjectDetails: NextPage = ({ project = null }: any) => {
     return (
         <main>
             <BreadCrumbs title={project?.title} />
-            <ProjectDetailsSection project={project} />
+            {project && <ProjectDetailsSection project={project} />}
         </main>
     );
 };
