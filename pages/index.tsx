@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
-import FeaturesSection from "../components/FeaturesSection";
-import GetStartedSection from "../components/GetStartedSection";
+import AboutSection from "../components/AboutSection";
+import ContactSection from "../components/ContactSection";
 import HeroSection from "../components/HeroSection";
 import OurProjectsSection from "../components/OurProjectsSection";
 import ServicesSection from "../components/ServicesSection";
@@ -9,10 +9,10 @@ const Home: NextPage = () => {
     return (
         <main>
             <HeroSection />
-            <GetStartedSection />
+            <AboutSection />
             <ServicesSection />
-            <FeaturesSection />
             <OurProjectsSection hasHeader={true} />
+            <ContactSection hasHeader={true} />
         </main>
     );
 };

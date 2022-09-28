@@ -28,7 +28,7 @@ const Header = () => {
                         <li>
                             <Link href='/projects'>Projects</Link>
                         </li>
-                        <li className='dropdown'>
+                        {/* <li className='dropdown'>
                             <Link href='#'>
                                 <a>
                                     <span>Dropdown</span>{" "}
@@ -84,7 +84,7 @@ const Header = () => {
                                     <Link href='#'>Dropdown 4</Link>
                                 </li>
                             </ul>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href='/contact'>Contact</Link>
                         </li>

@@ -1,9 +1,20 @@
 // import StaticContent from "./StaticContent";
 
-const ContactSection = () => {
+const ContactSection = ({ hasHeader = false }: any) => {
     return (
         // <StaticContent>
         <section id='contact' className='contact'>
+            {hasHeader && (
+                <div className='section-header'>
+                    <h2>Contact</h2>
+                    <p>
+                        Consequatur libero assumenda est voluptatem est quidem
+                        illum et officia imilique qui vel architecto accusamus
+                        fugit aut qui distinctio
+                    </p>
+                </div>
+            )}
+
             <div className='container' data-aos='fade-up' data-aos-delay='100'>
                 <div className='row gy-4'>
                     <div className='col-lg-6'>
