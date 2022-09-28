@@ -17,8 +17,9 @@ const ServicesSection = () => {
                 </div>
 
                 <div className='row gy-4'>
-                    {data.services.map(service => (
+                    {data.services.map((service, index) => (
                         <div
+                            key={index}
                             className='col-lg-4 col-md-6'
                             data-aos='fade-up'
                             data-aos-delay='100'>

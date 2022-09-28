@@ -41,7 +41,9 @@ const OurProjectsSection = ({ hasHeader = false }: any) => {
                         data-aos='fade-up'
                         data-aos-delay='200'>
                         {data.projects.map((project, index) => (
-                            <div className='col-lg-4 col-md-6 portfolio-item filter-remodeling'>
+                            <div
+                                className='col-lg-4 col-md-6 portfolio-item filter-remodeling'
+                                key={index}>
                                 <div className='portfolio-content h-100'>
                                     <img
                                         src={`/static/img/projects/${project.slug}.jpg`}
